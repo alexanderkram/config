@@ -8,7 +8,6 @@
 | --- | --- |
 | `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
-| `Preferences.sublime-settings` | My Sublime Text 2 user preferences. |
 
 ## Checklist
 
@@ -37,28 +36,19 @@
 
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
-- Enable the Sublime Text 2 `subl` shortcut (done via Bash alias, from `.bash_profile`)
 - Download and install the [Ocean theme](https://github.com/mdo/ocean-terminal)
 
-### 5. Tweak Sublime Text 2 just right
-
-*I use Sublime Text 2 as ST3 had quite a few problems the first day I used it with Yosemite. You'll need to modify your approach below if you're using ST3.*
-
-- [Install Package Control](https://sublime.wbond.net/installation):
-  - Open Sublime Text 2 and hit `Ctrl-\``, then enter the following:
-```bash
-import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
-```
-- Install and load packages (`Cmd-Shift-P`):
-  - [Spacegray theme](http://kkga.github.io/spacegray/)
-  - [Sass](http://sass-lang.com) package
-- Load user settings from [`Preferences.sublime-settings`](/Preferences.sublime-settings)
-
-### 6. Download Atom
+### 5. Download Atom and Tweak it right
 
 - Install Atom itself
-- Add Spacegray UI theme and Ocean Dark color scheme
+- Add [Spacegray UI theme](https://atom.io/themes/spacegray-dark-ui) and [Ocean Dark color scheme](https://atom.io/themes/base16-ocean-dark-syntax)
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
+- Change on Package 'tabs' to Preview Mode
+- Install Packages
+  - [color-picker](https://atom.io/packages/color-picker)
+  - [file-icons](https://atom.io/packages/file-icons)
+  - [language-jade](https://atom.io/packages/language-jade)
+  - [linter](https://atom.io/packages/linter)
 
 ## Use it yourself
 
