@@ -15,6 +15,12 @@
 
 - Download and install latest version of Xcode from the Mac App Store
 - Download and install Xcode command line tools
+- 5 Important apps for my workflow
+  - [Evernote](https://evernote.com) *Save your ideas*
+  - [GoogleDrive](https://www.google.com/drive/) *Sync your files*
+  - [Slack](https://slack.com) *Communicate better*
+  - [Toggl](https://www.toggl.com/) *Track your time*
+  - [Trello](https://trello.com/) *Manage your work*
 
 ### 2. Download dependencies
 
