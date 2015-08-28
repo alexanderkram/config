@@ -15,14 +15,16 @@
 
 - Download and install latest version of Xcode from the Mac App Store
 - Download and install Xcode command line tools
-- 5 Important apps for my workflow
-  - [Evernote](https://evernote.com) *Save your ideas*
-  - [GoogleDrive](https://www.google.com/drive/) *Sync your files*
-  - [Slack](https://slack.com) *Communicate better*
-  - [Toggl](https://www.toggl.com/) *Track your time*
-  - [Trello](https://trello.com/) *Manage your work*
 
-### 2. Download dependencies
+### 2. Apps for my workflow
+
+- [Evernote](https://evernote.com) *Save your ideas*
+- [GoogleDrive](https://www.google.com/drive/) *Sync your files*
+- [Slack](https://slack.com) *Communicate better*
+- [Toggl](https://www.toggl.com/) *Track your time*
+- [Trello](https://trello.com/) *Manage your work*
+
+### 3. Download dependencies
 
 - Install [homebrew](https://github.com/Homebrew/homebrew)
   `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
@@ -33,18 +35,18 @@
 - Install Node `$ brew install node`
 - Install Gulp and Bower: `$ npm install -g gulp bower`
 
-### 3. Secure Git(Hub) access
+### 4. Secure Git(Hub) access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled
 
-### 4. Prep Terminal.app
+### 5. Prep Terminal.app
 
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 - Download and install the [Ocean theme](https://github.com/mdo/ocean-terminal)
 
-### 5. Download Atom and Tweak it right
+### 6. Download Atom and Tweak it right
 
 - Install Atom itself
 - Add [Spacegray UI theme](https://atom.io/themes/spacegray-dark-ui) and [Ocean Dark color scheme](https://atom.io/themes/base16-ocean-dark-syntax)
