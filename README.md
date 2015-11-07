@@ -13,8 +13,9 @@
 
 ### 1. Prep OS X
 
-- Download and install latest version of Xcode from the Mac App Store
+- Download and install latest version of [Xcode](https://developer.apple.com/xcode/) from the Mac App Store
 - Download and install Xcode command line tools
+  `xcode-select --install`
 - Download and install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 - Download and install [Vagrant](http://www.vagrantup.com/downloads.html)
 - Download and install [Git](http://git-scm.com/downloads)
