@@ -52,7 +52,7 @@
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
 - Change on Package 'tabs' to Preview Mode
 - Install Packages
-  - [atom-beautify]https://atom.io/packages/atom-beautify
+  - [atom-beautify](https://atom.io/packages/atom-beautify)
   - [color-picker](https://atom.io/packages/color-picker)
   - [file-icons](https://atom.io/packages/file-icons)
   - [linter](https://atom.io/packages/linter)
