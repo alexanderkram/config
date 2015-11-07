@@ -1,6 +1,6 @@
 # Config
 
-**Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, Rails, Node, and more so I can more quickly get back to coding. (Just saw this by [mdo](https://github.com/mdo) and created my own one)
+**Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Bower, Git, Ruby, Node and more so I can more quickly get back to coding.
 
 ## Contents
 
@@ -15,6 +15,9 @@
 
 - Download and install latest version of Xcode from the Mac App Store
 - Download and install Xcode command line tools
+- Download and install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- Download and install [Vagrant](http://www.vagrantup.com/downloads.html)
+- Download and install [Git](http://git-scm.com/downloads)
 
 ### 2. Apps for my workflow
 
@@ -28,12 +31,8 @@
 
 - Install [homebrew](https://github.com/Homebrew/homebrew)
   `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- Install [rbenv](https://github.com/sstephenson/rbenv) over `$ brew install rbenv` `$ brew install ruby-build`
-- Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (latest version)
-  - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
-- Install common gems: `$ gem install rails sass`
 - Install Node `$ brew install node`
-- Install Gulp and Bower: `$ npm install -g gulp bower`
+- Install npm Packages: `$ npm install -g gulp bower eslint`
 
 ### 4. Secure Git(Hub) access
 
@@ -53,17 +52,8 @@
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
 - Change on Package 'tabs' to Preview Mode
 - Install Packages
+  - [atom-beautify]https://atom.io/packages/atom-beautify
   - [color-picker](https://atom.io/packages/color-picker)
   - [file-icons](https://atom.io/packages/file-icons)
-  - [language-jade](https://atom.io/packages/language-jade)
   - [linter](https://atom.io/packages/linter)
-
-## Use it yourself
-
-Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
-
-## Works on my machine
-
-Yup, it does. Hopefully it does on yours as well, but please don't hate me if it doesn't.
-
-<3
+  - [linter-eslint](https://atom.io/packages/linter-eslint)
