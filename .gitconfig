@@ -1,6 +1,6 @@
 [user]
   name = Alexander Kram
-  email = alexkram87@gmail.com
+  email = mail@alexanderkram.de
 
 [alias]
   co = checkout
@@ -25,4 +25,4 @@
     changed = green
     untracked = cyan
   [core]
-    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
