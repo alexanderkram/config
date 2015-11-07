@@ -8,9 +8,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # Custom bash prompt
-#
 # Includes custom character for the prompt, path, and Git branch name.
-#
 # Source: kirsle.net/wizards/ps1.html
 export PS1="\n\[$(tput bold)\]\[$(tput setaf 5)\]➜ \[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch) \[$(tput sgr0)\]"
 
