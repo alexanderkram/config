@@ -41,9 +41,8 @@
 - Install [RVM](https://rvm.io/)
   - `$ \curl -sSL https://get.rvm.io | bash -s stable`
   - Install [Ruby](https://www.ruby-lang.org/)
-    - ```$ rvm install 2.1
-    $ rvm use 2.1 --default
-    ```
+    - `$ rvm install 2.1`
+    - `$ rvm use 2.1 --default`
 - Install [PHP](http://www.php.net/)
   - `$ brew install homebrew/php/php55`
 
