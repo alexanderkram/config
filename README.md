@@ -14,7 +14,8 @@
 ### 1. Prep OS X
 
 - Download and install latest version of [Xcode](https://developer.apple.com/xcode/) from the Mac App Store
-- Download and install Xcode command line tools `$ xcode-select --install`
+- Download and install Xcode command line tools
+  - `$ xcode-select --install`
 - Download and install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 - Download and install [Vagrant](http://www.vagrantup.com/downloads.html)
 - Download and install [Git](http://git-scm.com/downloads)
@@ -30,15 +31,22 @@
 ### 3. Download dependencies
 
 - Install [homebrew](https://github.com/Homebrew/homebrew)
-  `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- Install Node `$ brew install node`
-- Install npm Packages: `$ npm install -g gulp bower eslint`
-- Install [Curl](http://brewformulas.org/Curl) `$ brew install curl`
-- Install [RVM](https://rvm.io/) `$ \curl -sSL https://get.rvm.io | bash -s stable`
+  - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Install Node
+  - `$ brew install node`
+- Install npm Packages:
+  - `$ npm install -g gulp bower eslint`
+- Install [Curl](http://brewformulas.org/Curl)
+  - `$ brew install curl`
+- Install [RVM](https://rvm.io/)
+  - `$ \curl -sSL https://get.rvm.io | bash -s stable`
   - Install [Ruby](https://www.ruby-lang.org/)
-    `$ rvm install 2.1`
-    `$ rvm use 2.1 --default`
-- Install [PHP](http://www.php.net/) `$ brew install homebrew/php/php55`
+    ```
+    $ rvm install 2.1
+    $ rvm use 2.1 --default
+    ```
+- Install [PHP](http://www.php.net/)
+  - `$ brew install homebrew/php/php55`
 
 ### 4. Secure Git(Hub) access
 
