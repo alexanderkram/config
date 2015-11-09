@@ -30,8 +30,7 @@
 
 ### 3. Download dependencies
 
-- Install [homebrew](https://github.com/Homebrew/homebrew)
-  - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Install [homebrew](https://github.com/Homebrew/homebrew) `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - Install Node
   - `$ brew install node`
 - Install npm Packages:
