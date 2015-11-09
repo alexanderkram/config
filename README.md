@@ -14,8 +14,7 @@
 ### 1. Prep OS X
 
 - Download and install latest version of [Xcode](https://developer.apple.com/xcode/) from the Mac App Store
-- Download and install Xcode command line tools
-  `xcode-select --install`
+- Download and install Xcode command line tools `$ xcode-select --install`
 - Download and install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 - Download and install [Vagrant](http://www.vagrantup.com/downloads.html)
 - Download and install [Git](http://git-scm.com/downloads)
@@ -34,6 +33,12 @@
   `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - Install Node `$ brew install node`
 - Install npm Packages: `$ npm install -g gulp bower eslint`
+- Install [Curl](http://brewformulas.org/Curl) `$ brew install curl`
+- Install [RVM](https://rvm.io/) `$ \curl -sSL https://get.rvm.io | bash -s stable`
+  - Install [Ruby](https://www.ruby-lang.org/)
+    `$ rvm install 2.1`
+    `$ rvm use 2.1 --default`
+- Install [PHP](http://www.php.net/) `$ brew install homebrew/php/php55`
 
 ### 4. Secure Git(Hub) access
 
@@ -58,3 +63,7 @@
   - [file-icons](https://atom.io/packages/file-icons)
   - [linter](https://atom.io/packages/linter)
   - [linter-eslint](https://atom.io/packages/linter-eslint)
+  - [linter-less](https://atom.io/packages/linter-less)
+  - [linter-phpcs](https://atom.io/packages/linter-phpcs)
+  - [linter-ruby](https://atom.io/packages/linter-ruby)
+  - [linter-scss-lint](https://atom.io/packages/linter-scss-lint)
